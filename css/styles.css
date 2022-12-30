@@ -1,0 +1,233 @@
+#title{
+background: linear-gradient(0deg, rgba(43,12,66,1) 0%, rgba(169,46,218,1) 100%, rgba(0,212,255,1) 100%);
+color:orange;
+ z-index: -1;
+
+
+}
+#features{
+  background: linear-gradient(0deg, rgba(57,17,69,1) 0%, rgba(0,0,0,1) 100%);
+  padding:5% 5% 1% 5%;
+  text-align: center;
+  position: relative;
+}
+body{
+  font-family: "Montserrat";
+  background-color: black;
+  background-image: "images/bread.png";
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color:orange;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+
+}
+
+h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: rgba(169,46,218,1);
+    /* text-align: center; */
+
+}
+
+.container-fluid{
+padding:3% 15% 6% 15%;
+}
+
+/* Navigation bar */
+.navbar {
+padding-bottom: 4.5rem;
+color:orange;
+}
+
+.navbar-brand {
+font-family: "Ubuntu";
+font-size: 2rem;
+line-height: 1.5;
+font-weight: 700;
+color:orange;
+text-decoration-color: orange;
+}
+
+.nav-item{
+  padding:0 18px;
+  color:orange;
+}
+.nav-link{
+font-size:1.2rem;
+font-family:"Montserrat" ;
+font-weight:300;
+color:orange;
+
+}
+.nav-link:hover{
+font-size:1.2rem;
+font-family:"Montserrat" ;
+font-weight:300;
+color:white;
+
+}
+
+
+/* download buttons */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width:35%;
+  /* transform: rotate(5deg); */
+  margin-left: 2rem;
+  padding-bottom: .2rem;
+  position: absolute;
+/* right:30%; */
+
+}
+
+
+
+.bread{
+  width:15%;
+  transform: rotate(15deg);
+
+}
+
+.icon-row{
+  text-align:center;
+
+}
+
+.icon{
+  color:white;
+  font-size: 4rem;
+  text-align:center;
+  padding:3% 0;
+}
+.icon:hover{
+  color:orange;
+  font-size: 4rem;
+  text-align:center;
+  padding:3% 0;
+  cursor: auto ;
+}
+
+
+
+.icon-text{
+  color:gray;
+  text-align: center;
+  padding:0 10%;
+}
+
+
+/* testimonial section */
+
+#testimonials {
+text-align: center;
+/* background: linear-gradient(0deg, rgba(43,12,66,1) 0%, rgba(169,46,218,1) 100%, rgba(0,212,255,1) 100%); */
+color:#fff;
+/* background-color: rgba(169,46,218,1) ; */
+background-color: black;
+}
+
+#press {
+background-color:rgba(57,17,69,1);
+text-align: center;
+padding:3% 0 3% 0;
+text-decoration-color:white;
+
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width:10%;
+  margin:20px;
+}
+
+.press-logo{
+width:15%;
+/* margin:20px 40px 50px; */
+margin:5% auto 6% 50px;
+
+
+}
+
+.carousel-item{
+padding: 7% 15%;
+
+}
+
+#pricing{
+  padding:5% 15%;
+
+  text-align: center;
+
+}
+/* .row{
+padding: 0 5%;
+display: inline-flex;
+
+} */
+/* .card{
+margin-left: 15px;
+display: inline-block;
+
+} */
+
+
+.sign-up{
+padding: 3% 30% 3% 30%;
+text-align: center;
+}
+
+
+
+#cta{
+background: linear-gradient(180deg, rgba(57,17,69,1) 0%, rgba(0,0,0,1) 100%);
+color:#fff;
+text-align: center;
+
+}
+.true-love{
+padding:3% 17%;
+text-align: center;
+
+}
+
+#footer{
+  text-align: center;
+  color: white;
+
+}
+.footer-icons{
+  font-size: 175%;
+padding:2% 1%;
+
+}
+
+a{
+  text-decoration:none;
+  color:rgba(169,46,218,1);
+  padding:0 1% 0 1%;
+}
+a:hover{
+  text-decoration:none;
+  color:white;
+  padding:0 1% 0 1%;
+}
